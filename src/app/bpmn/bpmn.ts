@@ -5,7 +5,7 @@ import Modeler from 'bpmn-js/lib/Modeler';
   selector: 'app-bpmn',
   standalone: true,
   templateUrl: './bpmn.html',
-  styleUrls: ['./bpmn.css'],
+  styleUrls: [],
 })
 export class BpmnComponent implements AfterViewInit {
   private modeler!: Modeler;

@@ -1,8 +1,8 @@
-<div class="toolbar">
-    <button>First Button</button>
-  <button (click)="newDiagram()">New</button>
-  <button (click)="downloadXML()">💾 Save BPMN</button>
-  <input type="file" (change)="uploadXML($event)" />
+<div class="mb-4 flex flex-wrap items-center gap-3">
+  <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition" (click)="newDiagram()">➕ New</button>
+  <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition" (click)="downloadXML()">💾 Save BPMN</button>
+  <input type="file" (change)="uploadXML($event)" class="border p-2 rounded" />
 </div>
 
-<div id="bpmn-container"></div>
+<div id="bpmn-container" class="w-full h-[80vh] border-2 border-gray-300 bg-white rounded shadow overflow-hidden relative"></div>
+

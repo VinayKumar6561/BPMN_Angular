@@ -6,6 +6,6 @@ import { BpmnComponent } from './bpmn/bpmn';
   standalone: true,
   imports: [BpmnComponent],
   templateUrl: './app.html',
-  styleUrls: ['./app.css']
+  styleUrls: []
 })
 export class App {}
