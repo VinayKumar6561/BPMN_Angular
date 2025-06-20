@@ -1,0 +1,7 @@
+<div class="toolbar">
+  <button (click)="newDiagram()">New</button>
+  <button (click)="downloadXML()">💾 Save BPMN</button>
+  <input type="file" (change)="uploadXML($event)" />
+</div>
+
+<div id="bpmn-container"></div>
